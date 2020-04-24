@@ -1,6 +1,6 @@
 name: disableemailverificationplugin
 version: 0.1.0
 patches:
-  openedx-lms-settings: |
+  openedx-common-settings: |
     # disable courseware search
     FEATURES[""SKIP_EMAIL_VALIDATION"] = True
