@@ -2,5 +2,4 @@ name: third-party-auth
 version: 0.1.0
 patches:
   openedx-common-settings: |
-    # disable course force email validation
     ENABLE_THIRD_PARTY_AUTH = True
