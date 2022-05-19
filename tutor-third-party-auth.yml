@@ -3,7 +3,7 @@ version: 1.0.0
 patches:
   common-env-features: |
     "ENABLE_THIRD_PARTY_AUTH": true
-  openedx-auth: |
+   openedx-common-settings: |
     "SOCIAL_AUTH_OAUTH_SECRETS": {"google-oauth2": "client-secret-from-google"}
   lms-env: |
     "THIRD_PARTY_AUTH_BACKENDS": ["social_core.backends.google.GoogleOAuth2"]
