@@ -4,5 +4,4 @@ patches:
   openedx-common-settings: |
     # disable course force email validation
     ENABLE_THIRD_PARTY_AUTH = True
-    SOCIAL_AUTH_OAUTH_SECRETS = '{"google-oauth2": "client-secret-from-google"}'
     THIRD_PARTY_AUTH_BACKENDS = ["social_core.backends.google.GoogleOAuth2"]
